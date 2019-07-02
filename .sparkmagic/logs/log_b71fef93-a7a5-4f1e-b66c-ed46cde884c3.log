@@ -1,0 +1,12 @@
+2019-03-07 19:57:33,731	DEBUG	SparkMagics	Initialized spark magics.
+2019-03-07 19:57:33,732	INFO	EventsHandler	InstanceId: b71fef93-a7a5-4f1e-b66c-ed46cde884c3,EventName: notebookLoaded,Timestamp: 2019-03-07 19:57:33.732673
+2019-03-07 19:57:33,733	DEBUG	r_jupyter_kernel	Loaded magics.
+2019-03-07 19:57:33,734	DEBUG	r_jupyter_kernel	Changed language.
+2019-03-07 19:57:34,755	DEBUG	r_jupyter_kernel	Registered auto viz.
+2019-03-07 19:59:09,871	INFO	EventsHandler	InstanceId: b71fef93-a7a5-4f1e-b66c-ed46cde884c3,EventName: notebookSessionCreationStart,Timestamp: 2019-03-07 19:59:09.871343,SessionGuid: 82fd6635-202f-498e-bbaa-a3bb38d6c6fc,LivyKind: sparkr
+2019-03-07 19:59:09,875	ERROR	ReliableHttpClient	Request to 'http://localhost:8998/sessions' failed with 'HTTPConnectionPool(host='localhost', port=8998): Max retries exceeded with url: /sessions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7ac0ba87f0>: Failed to establish a new connection: [Errno 111] Connection refused',))'
+2019-03-07 19:59:09,875	INFO	EventsHandler	InstanceId: b71fef93-a7a5-4f1e-b66c-ed46cde884c3,EventName: notebookSessionCreationEnd,Timestamp: 2019-03-07 19:59:09.875447,SessionGuid: 82fd6635-202f-498e-bbaa-a3bb38d6c6fc,LivyKind: sparkr,SessionId: -1,Status: not_started,Success: False,ExceptionType: HttpClientException,ExceptionMessage: Error sending http request and maximum retry encountered.
+2019-03-07 19:59:09,875	ERROR	SparkMagics	Error creating session: Error sending http request and maximum retry encountered.
+2019-03-07 20:05:16,038	INFO	EventsHandler	InstanceId: b71fef93-a7a5-4f1e-b66c-ed46cde884c3,EventName: notebookSessionDeletionStart,Timestamp: 2019-03-07 20:05:16.038465,SessionGuid: 82fd6635-202f-498e-bbaa-a3bb38d6c6fc,LivyKind: sparkr,SessionId: -1,Status: not_started
+2019-03-07 20:05:16,038	DEBUG	LivySession	Deleting session '-1'
+2019-03-07 20:05:16,039	INFO	EventsHandler	InstanceId: b71fef93-a7a5-4f1e-b66c-ed46cde884c3,EventName: notebookSessionDeletionEnd,Timestamp: 2019-03-07 20:05:16.039590,SessionGuid: 82fd6635-202f-498e-bbaa-a3bb38d6c6fc,LivyKind: sparkr,SessionId: -1,Status: not_started,Success: True,ExceptionType: ,ExceptionMessage: 
